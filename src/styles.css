@@ -32,7 +32,7 @@
     justify-content: space-between;
   }
 
-  .button-demo-div div button{
+  .button-demo-div div button, .button{
     padding: 1em;
     font-size: 19px;
     border-radius: 19px;
@@ -41,7 +41,7 @@
     border: 1px solid rgb(168, 166, 166);
   }
 
-  .button-demo-div div button a{
+  .button-demo-div div button a, .button a{
     color: #000;
   }
   
@@ -73,3 +73,11 @@
     background-color: #e1e1e1;
   }
   
+  @media only screen and (max-width: 768px) {
+    .button-demo-div{
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+  }
