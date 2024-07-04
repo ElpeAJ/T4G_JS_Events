@@ -26,6 +26,24 @@
     font-size: 19px;
     padding-bottom: 20px;
   }
+
+  .button-demo-div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button-demo-div div button{
+    padding: 1em;
+    font-size: 19px;
+    border-radius: 19px;
+    background-color: rgb(216, 183, 247);
+    text-shadow: -1px -1px 5px rgb(255, 255, 255);
+    border: 1px solid rgb(168, 166, 166);
+  }
+
+  .button-demo-div div button a{
+    color: #000;
+  }
   
   #challenge {
     margin-top: 15px;
